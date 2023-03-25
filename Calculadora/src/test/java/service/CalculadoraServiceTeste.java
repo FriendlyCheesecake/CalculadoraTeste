@@ -6,9 +6,9 @@ import org.junit.Test;
 
 public class CalculadoraServiceTeste {
 
-    CalculadoraService calculadoraService = new CalculadoraService();
-    int a;
-    int b;
+    static CalculadoraService calculadoraService = new CalculadoraService();
+    static int a;
+    static int b;
 
     @Before
     public void before() {
